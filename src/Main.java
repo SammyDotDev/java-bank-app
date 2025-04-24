@@ -44,14 +44,14 @@ public class Main extends Helpers {
             email = formatString(scanner.nextLine());
         }
 
-        System.out.print("Enter a password: ");
-        char[] psswd = null;
-        if ((cons = System.console())!= null &&
-                (psswd = cons.readPassword("[%s]", "Enter a Password:")) != null){
-            java.util.Arrays.fill(psswd, ' ');
-        }
-        assert psswd != null;
-        System.out.println(psswd);
+//        System.out.print("Enter a password: ");
+//        char[] psswd = null;
+//        if ((cons = System.console())!= null &&
+//                (psswd = cons.readPassword("[%s]", "Enter a Password:")) != null){
+//            java.util.Arrays.fill(psswd, ' ');
+//        }
+//        assert psswd != null;
+//        System.out.println(psswd);
         String password = formatString(scanner.nextLine());
 
         while (password.isEmpty()){
